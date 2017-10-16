@@ -1,0 +1,14 @@
+{
+  "name": "mi-xeno",
+  "version": "1.0.0",
+  "description": "Enter for Mi UltraBoost Xeno",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@hunter_bdm",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
