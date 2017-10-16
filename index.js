@@ -2,11 +2,11 @@ const request = require('request').defaults({gzip: true});
 const fs = require('fs');
 
 // How many entries you want
-const ENTRIES = 500;
-const firstName = 'John';
-const lastName = 'Biggens';
+const ENTRIES = 100;
+const firstName = 'Brayden';
+const lastName = 'Paul;
 // YYYY-MM-DD
-const dateOfBirth = '1984-08-08';
+const dateOfBirth = '2002-01-23';
 // What number you want the emails to start on
 const startingIndex = 81529;
 // Change email on line 44
@@ -41,7 +41,7 @@ function main() {
         If you want to use the gmail + method you can do something like this  ->  ultraboost+${i}@gmail.com
         If you have a catchall domain, you don't need a + , like this         ->  ultraboost${i}@customdomain.com
         */
-        const email = `ultraboost${i}@deadass.win`
+        const email = `commanderbtp${i}@yahoo.com`
     
         request({
             method: 'post',
@@ -58,12 +58,12 @@ function main() {
                 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Mobile Safari/537.36'
             },
             formData: {
-                firstName: firstName,
-                lastName: lastName,
-                dateOfBirth: dateOfBirth,
-                email: email,
-                consent: 'N',
-                gender: 'F',
+                firstName: Brayden,
+                lastName: Paul,
+                dateOfBirth: 2002/01/23,
+                email: commanderbtp@yahoo.com,
+                consent: 'Y',
+                gender: 'M',
                 market: 'US',
                 language: 'EN'
             },
