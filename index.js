@@ -2,13 +2,13 @@ const request = require('request').defaults({gzip: true});
 const fs = require('fs');
 
 // How many entries you want
-const ENTRIES = 1;
+const ENTRIES = 500;
 const firstName = 'John';
 const lastName = 'Biggens';
 // YYYY-MM-DD
 const dateOfBirth = '1984-08-08';
 // What number you want the emails to start on
-const startingIndex = 35216;
+const startingIndex = 81529;
 // Change email on line 44
 
 function formatProxy(proxy) {
